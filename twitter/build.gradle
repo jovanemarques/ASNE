@@ -10,10 +10,11 @@ android {
 
     defaultConfig {
         //applicationId "com.github.gorbin.asne.twitter"
-        minSdkVersion 15
+        minSdkVersion 21
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
     }
     buildTypes {
         release {

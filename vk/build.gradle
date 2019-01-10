@@ -8,11 +8,12 @@ android {
     buildToolsVersion '25.0.0'
 
     defaultConfig {
-        minSdkVersion 15
+        minSdkVersion 21
         //applicationId "com.github.gorbin.asne.vk"
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
     }
     buildTypes {
         release {
